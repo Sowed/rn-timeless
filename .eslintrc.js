@@ -1,4 +1,76 @@
 module.exports = {
   root: true,
-  extends: '@react-native-community',
+  env: {
+    es2021: true,
+    jest: true,
+    node: true,
+  },
+  extends: [
+    'plugin:react/recommended',
+    'airbnb',
+    'airbnb/hooks',
+    'airbnb-typescript',
+    'prettier',
+  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: { jsx: true },
+    project: './tsconfig.json',
+    ecmaVersion: 12,
+    sourceType: 'module',
+  },
+  plugins: [
+    'react',
+    'react-native',
+    'react-hooks',
+    'prettier',
+    '@typescript-eslint',
+    'react-native',
+  ],
+  rules: {
+    '@typescript-eslint/object-curly-spacing': 2,
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
+    '@typescript-eslint/no-var-requires': 0,
+    'no-underscore-dangle': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'import/prefer-default-export': 'off',
+    'react/require-default-props': 'off',
+    'global-require': 'off',
+    indent: ['error', 2, { SwitchCase: 1 }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'linebreak-style': ['error', 'unix'],
+    quotes: ['error', 'single', { avoidEscape: true }],
+    'react/jsx-filename-extension': [
+      1,
+      { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
+    ],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
+    'react/jsx-props-no-spreading': 'off',
+    'no-multi-str': 'off',
+    'newline-per-chained-call': [2, { ignoreChainWithDepth: 3 }],
+    'react/prop-types': [2, { ignore: ['navigation', 'dispatch'] }],
+    semi: ['error', 'always'],
+    'object-curly-newline': 'off',
+  },
+  settings: {
+    react: {
+      pragma: 'React',
+      version: 'detect',
+    },
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
 };
