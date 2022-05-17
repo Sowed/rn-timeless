@@ -46,10 +46,25 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Barlow-Black.ttf</string>
+		<string>Barlow-Bold.ttf</string>
+		<string>Barlow-Light.ttf</string>
+		<string>Barlow-Medium.ttf</string>
+		<string>Barlow-Regular.ttf</string>
+		<string>Barlow-SemiBold.ttf</string>
+		<string>Barlow-Thin.ttf</string>
+		<string>AntDesign.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Ionicons.ttf</string>
+	</array>
 </dict>
 </plist>

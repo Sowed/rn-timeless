@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* timelessReactNativeChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* timelessReactNativeChallengeTests.m */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		6172F2D35A4C3AA820D92908 /* libPods-timelessReactNativeChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-timelessReactNativeChallenge.a */; };
-		7EF68E3733C33B6898317E18 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a */; };
+		1A1387BA70CE064F17630972 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A96E8CC8662E820A6A05F /* ExpoModulesProvider.swift */; };
+		2B78B2D82832B12300DE4249 /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D12832B12300DE4249 /* Barlow-Light.ttf */; };
+		2B78B2D92832B12300DE4249 /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D12832B12300DE4249 /* Barlow-Light.ttf */; };
+		2B78B2DA2832B12300DE4249 /* Barlow-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D22832B12300DE4249 /* Barlow-Thin.ttf */; };
+		2B78B2DB2832B12300DE4249 /* Barlow-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D22832B12300DE4249 /* Barlow-Thin.ttf */; };
+		2B78B2DC2832B12300DE4249 /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D32832B12300DE4249 /* Barlow-Bold.ttf */; };
+		2B78B2DD2832B12300DE4249 /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D32832B12300DE4249 /* Barlow-Bold.ttf */; };
+		2B78B2DE2832B12300DE4249 /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D42832B12300DE4249 /* Barlow-Medium.ttf */; };
+		2B78B2DF2832B12300DE4249 /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D42832B12300DE4249 /* Barlow-Medium.ttf */; };
+		2B78B2E02832B12300DE4249 /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D52832B12300DE4249 /* Barlow-Regular.ttf */; };
+		2B78B2E12832B12300DE4249 /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D52832B12300DE4249 /* Barlow-Regular.ttf */; };
+		2B78B2E22832B12300DE4249 /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D62832B12300DE4249 /* Barlow-SemiBold.ttf */; };
+		2B78B2E32832B12300DE4249 /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D62832B12300DE4249 /* Barlow-SemiBold.ttf */; };
+		2B78B2E42832B12300DE4249 /* Barlow-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D72832B12300DE4249 /* Barlow-Black.ttf */; };
+		2B78B2E52832B12300DE4249 /* Barlow-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B78B2D72832B12300DE4249 /* Barlow-Black.ttf */; };
+		61457BCCAB26D213A595D97E /* libPods-timelessReactNativeChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2EC08E9A7E0E7B1C9295EDD /* libPods-timelessReactNativeChallenge.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B674002D01361E28CBFD57D5 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752805B1C7D50E0D8DC47C0F /* ExpoModulesProvider.swift */; };
+		DFF659B0E401707B8B6A5AC4 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7402B4E6414D2F537507D74 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +46,45 @@
 		00E356EE1AD99517003FC87E /* timelessReactNativeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timelessReactNativeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* timelessReactNativeChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timelessReactNativeChallengeTests.m; sourceTree = "<group>"; };
+		076C7787C2BA469AB4011F24 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* timelessReactNativeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timelessReactNativeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = timelessReactNativeChallenge/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = timelessReactNativeChallenge/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = timelessReactNativeChallenge/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = timelessReactNativeChallenge/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = timelessReactNativeChallenge/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = timelessReactNativeChallenge/main.m; sourceTree = "<group>"; };
-		1D0AE47A65C8663E3B452821 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
-		6423831EA8574132BED9D8CC /* libPods-timelessReactNativeChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-timelessReactNativeChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C97AB639B58BBB4B15BBE30 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20DCA872FD1642339A4500D8 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		2190BAD4D51B433B850E909B /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		2B78B2D12832B12300DE4249 /* Barlow-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Light.ttf"; sourceTree = "<group>"; };
+		2B78B2D22832B12300DE4249 /* Barlow-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Thin.ttf"; sourceTree = "<group>"; };
+		2B78B2D32832B12300DE4249 /* Barlow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Bold.ttf"; sourceTree = "<group>"; };
+		2B78B2D42832B12300DE4249 /* Barlow-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Medium.ttf"; sourceTree = "<group>"; };
+		2B78B2D52832B12300DE4249 /* Barlow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Regular.ttf"; sourceTree = "<group>"; };
+		2B78B2D62832B12300DE4249 /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-SemiBold.ttf"; sourceTree = "<group>"; };
+		2B78B2D72832B12300DE4249 /* Barlow-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Black.ttf"; sourceTree = "<group>"; };
+		3D2E2AFD21D9479EB13A6B88 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		5DF025FF8982623368C6D2C5 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		604156C693404038BC3533D6 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		68926399CB7B431783DE770C /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		752805B1C7D50E0D8DC47C0F /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = timelessReactNativeChallenge/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ABFE59519B596E51CEFDCCC0 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0A881CF5CF3F2B244570E2A /* Pods-timelessReactNativeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timelessReactNativeChallenge.debug.xcconfig"; path = "Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		D00AAFFCFCFDA5787532823F /* Pods-timelessReactNativeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timelessReactNativeChallenge.release.xcconfig"; path = "Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		81B55C4DF61392DB374D8ED6 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		867896B3EC3C44D09E93B871 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		8DE27F58E71D43DDB98F34BD /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		A2EC08E9A7E0E7B1C9295EDD /* libPods-timelessReactNativeChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-timelessReactNativeChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F7A5729B5640B5B7B039BB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		AB4B792A4ABBB126FF4CBA2F /* Pods-timelessReactNativeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timelessReactNativeChallenge.release.xcconfig"; path = "Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		B3B16EC73C6443059B8F4693 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		B8912F9693FB4F28960828BC /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		B8A361B27EC44B3CA2C8BC0E /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		BCF5DFE19C3E4CD4A7D3236C /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		D927A2B5D2FD43498789D7C7 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		E13A96E8CC8662E820A6A05F /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-timelessReactNativeChallenge/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F2411D087AC04885A2966758 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		F7402B4E6414D2F537507D74 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4A3F26DCAF594A36F6459B /* Pods-timelessReactNativeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timelessReactNativeChallenge.debug.xcconfig"; path = "Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		FEB41F5678D545279551124F /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF68E3733C33B6898317E18 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a in Frameworks */,
+				DFF659B0E401707B8B6A5AC4 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6172F2D35A4C3AA820D92908 /* libPods-timelessReactNativeChallenge.a in Frameworks */,
+				61457BCCAB26D213A595D97E /* libPods-timelessReactNativeChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,11 +124,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1264FDB97EB968C263E6C047 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				E031BD267D736BE499DC8FCD /* timelessReactNativeChallenge */,
+				B46017AF02134EC86C7E17B5 /* timelessReactNativeChallengeTests */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* timelessReactNativeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				2B78B2B92832ADC600DE4249 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -96,14 +147,60 @@
 			name = timelessReactNativeChallenge;
 			sourceTree = "<group>";
 		};
+		2B78B2B92832ADC600DE4249 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2B78B2D02832B12300DE4249 /* Barlow-Fonts */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		2B78B2D02832B12300DE4249 /* Barlow-Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2B78B2D12832B12300DE4249 /* Barlow-Light.ttf */,
+				2B78B2D22832B12300DE4249 /* Barlow-Thin.ttf */,
+				2B78B2D32832B12300DE4249 /* Barlow-Bold.ttf */,
+				2B78B2D42832B12300DE4249 /* Barlow-Medium.ttf */,
+				2B78B2D52832B12300DE4249 /* Barlow-Regular.ttf */,
+				2B78B2D62832B12300DE4249 /* Barlow-SemiBold.ttf */,
+				2B78B2D72832B12300DE4249 /* Barlow-Black.ttf */,
+			);
+			name = "Barlow-Fonts";
+			path = "../app/theme/fonts/Barlow-Fonts";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6423831EA8574132BED9D8CC /* libPods-timelessReactNativeChallenge.a */,
-				ABFE59519B596E51CEFDCCC0 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a */,
+				A2EC08E9A7E0E7B1C9295EDD /* libPods-timelessReactNativeChallenge.a */,
+				F7402B4E6414D2F537507D74 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81C1E9252E694F249DA413EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				867896B3EC3C44D09E93B871 /* AntDesign.ttf */,
+				68926399CB7B431783DE770C /* Entypo.ttf */,
+				B3B16EC73C6443059B8F4693 /* EvilIcons.ttf */,
+				076C7787C2BA469AB4011F24 /* Feather.ttf */,
+				604156C693404038BC3533D6 /* FontAwesome.ttf */,
+				B8912F9693FB4F28960828BC /* FontAwesome5_Brands.ttf */,
+				D927A2B5D2FD43498789D7C7 /* FontAwesome5_Regular.ttf */,
+				3D2E2AFD21D9479EB13A6B88 /* FontAwesome5_Solid.ttf */,
+				8DE27F58E71D43DDB98F34BD /* Fontisto.ttf */,
+				B8A361B27EC44B3CA2C8BC0E /* Foundation.ttf */,
+				FEB41F5678D545279551124F /* Ionicons.ttf */,
+				BCF5DFE19C3E4CD4A7D3236C /* MaterialCommunityIcons.ttf */,
+				20DCA872FD1642339A4500D8 /* MaterialIcons.ttf */,
+				2190BAD4D51B433B850E909B /* Octicons.ttf */,
+				A9F7A5729B5640B5B7B039BB /* SimpleLineIcons.ttf */,
+				F2411D087AC04885A2966758 /* Zocial.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -121,7 +218,9 @@
 				00E356EF1AD99517003FC87E /* timelessReactNativeChallengeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				E233CBF5F47BEE60B243DCF8 /* Pods */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				1264FDB97EB968C263E6C047 /* ExpoModulesProviders */,
+				81C1E9252E694F249DA413EF /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,16 +236,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E233CBF5F47BEE60B243DCF8 /* Pods */ = {
+		B46017AF02134EC86C7E17B5 /* timelessReactNativeChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				C0A881CF5CF3F2B244570E2A /* Pods-timelessReactNativeChallenge.debug.xcconfig */,
-				D00AAFFCFCFDA5787532823F /* Pods-timelessReactNativeChallenge.release.xcconfig */,
-				6C97AB639B58BBB4B15BBE30 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig */,
-				1D0AE47A65C8663E3B452821 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig */,
+				752805B1C7D50E0D8DC47C0F /* ExpoModulesProvider.swift */,
 			);
-			name = Pods;
+			name = timelessReactNativeChallengeTests;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A3F26DCAF594A36F6459B /* Pods-timelessReactNativeChallenge.debug.xcconfig */,
+				AB4B792A4ABBB126FF4CBA2F /* Pods-timelessReactNativeChallenge.release.xcconfig */,
+				5DF025FF8982623368C6D2C5 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig */,
+				81B55C4DF61392DB374D8ED6 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig */,
+			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E031BD267D736BE499DC8FCD /* timelessReactNativeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				E13A96E8CC8662E820A6A05F /* ExpoModulesProvider.swift */,
+			);
+			name = timelessReactNativeChallenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,12 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "timelessReactNativeChallengeTests" */;
 			buildPhases = (
-				A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */,
+				F94F77666CC0DFA083982BA8 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				077E01280D4B4AD18B2E1770 /* [CP] Embed Pods Frameworks */,
-				4E62BDF20514810D028A5FBF /* [CP] Copy Pods Resources */,
+				39E346F8F3D086CCFE8FC269 /* [CP] Embed Pods Frameworks */,
+				887806CBA7869C5F2680C7DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +291,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "timelessReactNativeChallenge" */;
 			buildPhases = (
-				3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */,
+				F2CCA5F8AB959840CB3FE750 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */,
-				ADC9DDC32298B72B3CF5DC8E /* [CP] Copy Pods Resources */,
+				A2D59F433DF59DD980A09C28 /* [CP] Embed Pods Frameworks */,
+				D42CC96058D2C2F5AC3A3596 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +350,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B78B2DB2832B12300DE4249 /* Barlow-Thin.ttf in Resources */,
+				2B78B2D92832B12300DE4249 /* Barlow-Light.ttf in Resources */,
+				2B78B2E52832B12300DE4249 /* Barlow-Black.ttf in Resources */,
+				2B78B2E12832B12300DE4249 /* Barlow-Regular.ttf in Resources */,
+				2B78B2DF2832B12300DE4249 /* Barlow-Medium.ttf in Resources */,
+				2B78B2E32832B12300DE4249 /* Barlow-SemiBold.ttf in Resources */,
+				2B78B2DD2832B12300DE4249 /* Barlow-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +366,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				2B78B2DA2832B12300DE4249 /* Barlow-Thin.ttf in Resources */,
+				2B78B2DE2832B12300DE4249 /* Barlow-Medium.ttf in Resources */,
+				2B78B2D82832B12300DE4249 /* Barlow-Light.ttf in Resources */,
+				2B78B2E02832B12300DE4249 /* Barlow-Regular.ttf in Resources */,
+				2B78B2E22832B12300DE4249 /* Barlow-SemiBold.ttf in Resources */,
+				2B78B2E42832B12300DE4249 /* Barlow-Black.ttf in Resources */,
+				2B78B2DC2832B12300DE4249 /* Barlow-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +393,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		077E01280D4B4AD18B2E1770 /* [CP] Embed Pods Frameworks */ = {
+		39E346F8F3D086CCFE8FC269 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,7 +410,58 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */ = {
+		887806CBA7869C5F2680C7DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D59F433DF59DD980A09C28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42CC96058D2C2F5AC3A3596 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CCA5F8AB959840CB3FE750 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,24 +483,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4E62BDF20514810D028A5FBF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */ = {
+		F94F77666CC0DFA083982BA8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,40 +503,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ADC9DDC32298B72B3CF5DC8E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -404,6 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* timelessReactNativeChallengeTests.m in Sources */,
+				B674002D01361E28CBFD57D5 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,8 +540,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				1A1387BA70CE064F17630972 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +559,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig */;
+			baseConfigurationReference = 5DF025FF8982623368C6D2C5 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,7 +567,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = timelessReactNativeChallengeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,6 +578,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timelessReactNativeChallenge.app/timelessReactNativeChallenge";
@@ -456,12 +587,12 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig */;
+			baseConfigurationReference = 81B55C4DF61392DB374D8ED6 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = timelessReactNativeChallengeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,6 +603,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timelessReactNativeChallenge.app/timelessReactNativeChallenge";
@@ -480,7 +612,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0A881CF5CF3F2B244570E2A /* Pods-timelessReactNativeChallenge.debug.xcconfig */;
+			baseConfigurationReference = FC4A3F26DCAF594A36F6459B /* Pods-timelessReactNativeChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -496,6 +628,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = timelessReactNativeChallenge;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -506,7 +639,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D00AAFFCFCFDA5787532823F /* Pods-timelessReactNativeChallenge.release.xcconfig */;
+			baseConfigurationReference = AB4B792A4ABBB126FF4CBA2F /* Pods-timelessReactNativeChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -521,6 +654,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = timelessReactNativeChallenge;
 				SWIFT_VERSION = 5.0;
@@ -533,7 +667,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -577,7 +711,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -585,11 +719,16 @@
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(SDKROOT)/usr/lib/swift\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -599,7 +738,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -636,7 +775,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -644,10 +783,15 @@
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(SDKROOT)/usr/lib/swift\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -663,7 +807,7 @@
 				00E356F71AD99517003FC87E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "timelessReactNativeChallenge" */ = {
 			isa = XCConfigurationList;
@@ -672,7 +816,7 @@
 				13B07F951A680F5B00A75B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "timelessReactNativeChallenge" */ = {
 			isa = XCConfigurationList;
@@ -681,7 +825,7 @@
 				83CBBA211A601CBA00E9B192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
