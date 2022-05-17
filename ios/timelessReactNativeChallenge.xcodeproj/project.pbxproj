@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FBF22FCE4BF82592A4DD015 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a in Frameworks */,
+				DFF659B0E401707B8B6A5AC4 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				856D2C0FA7332037B8780447 /* libPods-timelessReactNativeChallenge.a in Frameworks */,
+				61457BCCAB26D213A595D97E /* libPods-timelessReactNativeChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +83,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1264FDB97EB968C263E6C047 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				E031BD267D736BE499DC8FCD /* timelessReactNativeChallenge */,
+				B46017AF02134EC86C7E17B5 /* timelessReactNativeChallengeTests */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* timelessReactNativeChallenge */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				69510BD0B348F9D6857BD3FC /* libPods-timelessReactNativeChallenge.a */,
-				F8377D9D6F8AAB7F8AF9CF90 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a */,
+				A2EC08E9A7E0E7B1C9295EDD /* libPods-timelessReactNativeChallenge.a */,
+				F7402B4E6414D2F537507D74 /* libPods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +131,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				1264FDB97EB968C263E6C047 /* ExpoModulesProviders */,
+				81C1E9252E694F249DA413EF /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,15 +148,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B46017AF02134EC86C7E17B5 /* timelessReactNativeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				752805B1C7D50E0D8DC47C0F /* ExpoModulesProvider.swift */,
+			);
+			name = timelessReactNativeChallengeTests;
+			sourceTree = "<group>";
+		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1DA81D97DB78CA29DC0C0535 /* Pods-timelessReactNativeChallenge.debug.xcconfig */,
-				7B27D1D30C8A687B699C25BF /* Pods-timelessReactNativeChallenge.release.xcconfig */,
-				2EBFAAC8427ABE2BC642ED78 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig */,
-				53E434D30D3C479B59F7A13A /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig */,
+				FC4A3F26DCAF594A36F6459B /* Pods-timelessReactNativeChallenge.debug.xcconfig */,
+				AB4B792A4ABBB126FF4CBA2F /* Pods-timelessReactNativeChallenge.release.xcconfig */,
+				5DF025FF8982623368C6D2C5 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig */,
+				81B55C4DF61392DB374D8ED6 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E031BD267D736BE499DC8FCD /* timelessReactNativeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				E13A96E8CC8662E820A6A05F /* ExpoModulesProvider.swift */,
+			);
+			name = timelessReactNativeChallenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,12 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "timelessReactNativeChallengeTests" */;
 			buildPhases = (
-				BD4E0A1A38F7DA6B45A4E313 /* [CP] Check Pods Manifest.lock */,
+				F94F77666CC0DFA083982BA8 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				53FC351E6598E412AE1FD18C /* [CP] Embed Pods Frameworks */,
-				0CBFF2BC9B4344BFD189A7C8 /* [CP] Copy Pods Resources */,
+				39E346F8F3D086CCFE8FC269 /* [CP] Embed Pods Frameworks */,
+				887806CBA7869C5F2680C7DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +203,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "timelessReactNativeChallenge" */;
 			buildPhases = (
-				DABF047177A5DC1CF775FD3A /* [CP] Check Pods Manifest.lock */,
+				F2CCA5F8AB959840CB3FE750 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				F26B5477B8BA68911D6A6E7A /* [CP] Embed Pods Frameworks */,
-				0B25572125AB647B4DCDD7B4 /* [CP] Copy Pods Resources */,
+				A2D59F433DF59DD980A09C28 /* [CP] Embed Pods Frameworks */,
+				D42CC96058D2C2F5AC3A3596 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,24 +291,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0B25572125AB647B4DCDD7B4 /* [CP] Copy Pods Resources */ = {
+		39E346F8F3D086CCFE8FC269 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0CBFF2BC9B4344BFD189A7C8 /* [CP] Copy Pods Resources */ = {
+		887806CBA7869C5F2680C7DA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,21 +325,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		53FC351E6598E412AE1FD18C /* [CP] Embed Pods Frameworks */ = {
+		A2D59F433DF59DD980A09C28 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests/Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timelessReactNativeChallenge/Pods-timelessReactNativeChallenge-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD4E0A1A38F7DA6B45A4E313 /* [CP] Check Pods Manifest.lock */ = {
@@ -403,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* timelessReactNativeChallengeTests.m in Sources */,
+				B674002D01361E28CBFD57D5 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +440,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				1A1387BA70CE064F17630972 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +457,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EBFAAC8427ABE2BC642ED78 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig */;
+			baseConfigurationReference = 5DF025FF8982623368C6D2C5 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -436,7 +465,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = timelessReactNativeChallengeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,12 +484,12 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53E434D30D3C479B59F7A13A /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig */;
+			baseConfigurationReference = 81B55C4DF61392DB374D8ED6 /* Pods-timelessReactNativeChallenge-timelessReactNativeChallengeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = timelessReactNativeChallengeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +500,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timelessReactNativeChallenge.app/timelessReactNativeChallenge";
@@ -479,7 +509,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DA81D97DB78CA29DC0C0535 /* Pods-timelessReactNativeChallenge.debug.xcconfig */;
+			baseConfigurationReference = FC4A3F26DCAF594A36F6459B /* Pods-timelessReactNativeChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -495,6 +525,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = timelessReactNativeChallenge;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -505,7 +536,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B27D1D30C8A687B699C25BF /* Pods-timelessReactNativeChallenge.release.xcconfig */;
+			baseConfigurationReference = AB4B792A4ABBB126FF4CBA2F /* Pods-timelessReactNativeChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -520,6 +551,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = timelessReactNativeChallenge;
 				SWIFT_VERSION = 5.0;
@@ -576,7 +608,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -640,7 +672,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -672,7 +704,7 @@
 				00E356F71AD99517003FC87E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "timelessReactNativeChallenge" */ = {
 			isa = XCConfigurationList;
@@ -681,7 +713,7 @@
 				13B07F951A680F5B00A75B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "timelessReactNativeChallenge" */ = {
 			isa = XCConfigurationList;
@@ -690,7 +722,7 @@
 				83CBBA211A601CBA00E9B192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
