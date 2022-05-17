@@ -1,0 +1,15 @@
+{
+  "": "",
+  "common": {
+    "ok": "OK!",
+    "cancel": "Cancel",
+    "back": "Back"
+  },
+  "maintenance": {
+    "offlineBanner": {
+      "title": "You're offline! Last Updated -  %{time}",
+      "message": "The content you are viewing may not be up to date.",
+      "ok": "OK!"
+    }
+  },
+}

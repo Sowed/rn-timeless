@@ -1,0 +1,14 @@
+{
+  "common": {
+    "ok": "Gut! 🇩🇪",
+    "cancel": "Abbrechen 🇩🇪",
+    "back": "Zurück 🇩🇪",
+  },
+  "maintenance": {
+    "offlineBanner": {
+      "title": "Du bist offline! Letzte Aktualisierung -  %{time}",
+      "message": "Der angezeigte Inhalt ist möglicherweise nicht aktuell.",
+      "ok": "Gut!"
+    }
+  }
+}

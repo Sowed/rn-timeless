@@ -16,6 +16,7 @@
       "size" : "29x29"
     },
     {
+      "filename" : "timeless-logo-x87.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
@@ -31,11 +32,13 @@
       "size" : "40x40"
     },
     {
+      "filename" : "timeless-logo-x120.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "timeless-logo-x180.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
