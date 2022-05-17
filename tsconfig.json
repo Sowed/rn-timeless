@@ -62,6 +62,31 @@
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
 
     "paths": {
+      "@assets/*": ["app/assets/*"],
+      "@components/*": ["./app/components/*"],
+      "@components": ["./app/components/index"],
+      "@features/*": ["./app/features/*"],
+      "@features": ["./app/features/index"],
+      "@i18n/*": ["./app/i18n/*"],
+      "@i18n": ["./app/i18n/index"],
+      "@icon/*": ["app/components/icons/*"],
+      "@icon": ["app/components/icons/index"],
+      "@navigators/*": ["./app/navigators/*"],
+      "@navigators": ["./app/navigators/index"],
+      "@screens/*": ["app/screens/*"],
+      "@screens": ["app/screens/index"],
+      "@services/*": ["app/services/*"],
+      "@services": ["app/services/index"],
+      "@svg/*": ["app/components/icons/*"],
+      "@svg": ["app/components/icons/index"],
+      "@theme/*": ["app/theme/*"],
+      "@theme": ["app/theme/index"],
+      "@timeless/*": ["app/*"],
+      "@timeless": ["app/index"],
+      "@types/*": ["./app/@types/*"],
+      "@types": ["./app/@types/index"],
+      "@utils/*": ["./app/utils/*"],
+      "@utils": ["./app/utils/index"]
     }
   },
   "exclude": [
@@ -71,8 +96,9 @@
   "include": [
     ".eslintrc.js",
     "app",
+    "tsconfig.json",
     "babel.config.js",
     "index.js",
-    "test"
+    "__tests__"
   ]
 }
