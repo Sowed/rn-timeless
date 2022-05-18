@@ -30,7 +30,6 @@ export const useGQLQuery = ({
     // TODO: Add exception and error handling to this request
     const response = await request(GRAPHQL_ENDPOINT, requestQuery, requestVariables);
 
-
     console.log({
       '🦋 useGQLQuery:: fetchData': '---------', response
     });
