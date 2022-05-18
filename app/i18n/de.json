@@ -2,7 +2,7 @@
   "common": {
     "ok": "Gut! 🇩🇪",
     "cancel": "Abbrechen 🇩🇪",
-    "back": "Zurück 🇩🇪",
+    "back": "Zurück 🇩🇪"
   },
   "maintenance": {
     "offlineBanner": {
@@ -10,5 +10,11 @@
       "message": "Der angezeigte Inhalt ist möglicherweise nicht aktuell.",
       "ok": "Gut!"
     }
+  },
+  "errorScreen": {
+    "title": "Etwas ist schief gelaufen!",
+    "friendlySubtitle": "Dies ist der Bildschirm, den Ihre Benutzer in der Produktion sehen, wenn ein Fehler ausgegeben wird.",
+    "traceTitle": "Fehler ab %{name} stack",
+    "reset": "APP ZURÜCKSETZEN"
   }
 }

@@ -12,4 +12,10 @@
       "ok": "OK!"
     }
   },
+  "errorScreen": {
+    "title": "Something went wrong!",
+    "friendlySubtitle": "This is the screen that your users will see in production when an error is thrown.",
+    "traceTitle": "Error from %{name} stack",
+    "reset": "RESET APP"
+  }
 }
