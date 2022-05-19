@@ -32,25 +32,6 @@ export type TBottomTabItems = {
  */
 const bottomRouteItems: TBottomTabItems[] = [
   {
-    name: 'WalletScreen',
-    component: WalletScreen,
-    options: {
-      tabBarLabel: 'Wallet',
-      tabBarIcon: (props: {
-        size: number;
-        focused: boolean;
-        color: string;
-      }) => (
-        <Icon
-          name="credit-card"
-          color={props.color}
-          size={props.size}
-          solid={props.focused}
-        />
-      ),
-    },
-  },
-  {
     name: 'HomeScreen',
     component: HomeScreen,
     options: {
@@ -62,6 +43,25 @@ const bottomRouteItems: TBottomTabItems[] = [
       }) => (
         <Icon
           name="diamond"
+          color={props.color}
+          size={props.size}
+          solid={props.focused}
+        />
+      ),
+    },
+  },
+  {
+    name: 'WalletScreen',
+    component: WalletScreen,
+    options: {
+      tabBarLabel: 'Wallet',
+      tabBarIcon: (props: {
+        size: number;
+        focused: boolean;
+        color: string;
+      }) => (
+        <Icon
+          name="credit-card"
           color={props.color}
           size={props.size}
           solid={props.focused}

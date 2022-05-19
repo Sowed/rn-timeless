@@ -61,6 +61,7 @@ module.exports = {
     'react/prop-types': [2, { ignore: ['navigation', 'dispatch'] }],
     semi: ['error', 'always'],
     'object-curly-newline': 'off',
+    'react/no-unused-prop-types': 0,
   },
   settings: {
     react: {
