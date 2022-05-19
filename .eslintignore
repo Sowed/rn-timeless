@@ -5,3 +5,4 @@ ios/
 # Temp - Backup files for current work in progress ignored for VC
 temp-timeless/
 temp-timeless-wip/
+.history/
