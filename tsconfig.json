@@ -94,11 +94,15 @@
     "temp-timeless"
   ],
   "include": [
+    "__tests__",
+    "__mocks__",
     ".eslintrc.js",
     "app",
-    "tsconfig.json",
     "babel.config.js",
     "index.js",
-    "__tests__"
+    "jest.config.ts",
+    "jest.setup.js",
+    "react-native.config",
+    "tsconfig.json"
   ]
 }
